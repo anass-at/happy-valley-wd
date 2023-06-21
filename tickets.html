@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Valley - ticket</title>
+    <link rel="icon" type="image/x-icon" href="./assets/happy_valley_logo2.png">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+
+
+<!-- Header with naviagtion urls  -->
+<div class="navigation_bar">
+  <img class="logo" src = "assets/happy_valley_logo2.png" alt="Theme Park Logo" > 
+  <h2 class="title">Happy Valley</h2>
+
+  <ul class="">
+    <li><a href="index.html">Home</a></li> <!-- Return always to home (main page) -->
+    <li><a href="#services">Services</a></li> <!-- Scroll to services -->
+    <li><a href="#attractions">Attractions</a></li> <!-- Scroll to Attractions -->
+    <li><a href="#shopping">Shopping</a></li> <!-- Scroll to Shopping -->
+  </ul>
+  <button onclick="window.location.href='tickets.html';" target="_blank">Buy Ticket</button> <!-- Navigate to buy ticket -->
+</div>
+
+<!-- this is the div block for the title of the ticket page-->
+
+<div class="ticket">
+  <div>
+  <h1>Buy your tickets</h1>
+  
+
+  <div style="display: flex;">
+    <div style="width: 50%;">
+      <h3>First Name</h3>
+      <input type="text" style="height: 25px; width: 50%; border-radius: 4px;"/>
+    </div>
+
+    <div style="width: 50%;">
+      <h3>Last Name</h3>
+      <input type="text" style="height: 25px; width: 50%; border-radius: 4px;"/>
+    </div>
+
+  </div>
+
+  <div style="display: flex;">
+    <div style="width: 50%;">
+      <h3>Phone Number</h3>
+      <input type="number" style="height: 25px; width: 50%; border-radius: 4px;"/>
+    </div>
+
+    <div style="width: 50%;">
+      <h3>Email Address</h3>
+      <input type="email" style="height: 25px; width: 50%; border-radius: 4px;"/>
+    </div>
+
+  </div>
+
+  
+  <div style="display: flex;">
+    <div style="width: 50%;">
+      <h3>Date</h3>
+      <input type="datetime" style="height: 25px; width: 50%; border-radius: 4px;"/>
+    </div>
+
+
+  </div>
+
+  <h3>Price: 30$</h3>
+
+
+  <button style="width: 80px; background-color: slateblue; color:white;border-radius: 8px; border-width: 0px; font-size: 20px; height: 40px;">Buy</button>
+</div>
+</div>
+
+
+    </body>
+</html>
